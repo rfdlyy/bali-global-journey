@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f7f3;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #2f3e34;
+    color: #fff;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 90vh;
+    background: url('bali.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 14px 34px;
+    background-color: #c2a24c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.about, .packages, .contact {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.packages {
+    background-color: #fff;
+}
+
+.package-card {
+    background: #f1efe9;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2f3e34;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* FLOATING WHATSAPP */
+.wa-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
